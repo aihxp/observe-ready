@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.2 (2026-04-23)
+
+Documentation-only patch. SUITE.md updated to reflect the v1.0.0 release of sibling skill `launch-ready`, the shipping-tier skill that owns "tell the world the product exists." The shipping tier is now complete. No behavioral changes to observe-ready itself. The coupling with launch-ready: a launch generates a traffic spike; launch-ready reads `.observe-ready/SLOs.md` to surface any at-risk SLO in the launch runbook, and reads `.observe-ready/INDEPENDENCE.md` to know whether the status page is already out-of-band. observe-ready's existing artifact contract is unchanged. See [launch-ready](https://github.com/aihxp/launch-ready) for the sibling.
+
 ## v1.0.1 (2026-04-23)
 
 Documentation-only patch. Reflects the arrival of repo-ready v1.6.0 as a live sibling in the ready-suite with its suite-membership retrofit (frontmatter interop fields, SUITE.md, Unicode cleanup). No behavioral changes to the skill.
